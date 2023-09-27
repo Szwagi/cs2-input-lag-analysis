@@ -50,123 +50,27 @@ Calibration happens every 250 samples.
 
 ## Graphs
 
-![csgo_inferno_160fps](graphs/csgo_inferno_160fps.png)
-![cs2_inferno_lowlatency-disabled_160fps](graphs/cs2_inferno_lowlatency-disabled_160fps.png)
-![cs2_inferno_lowlatency-enabled_160fps](graphs/cs2_inferno_lowlatency-enabled_160fps.png)
-![cs2_inferno_lowlatency-boost_160fps](graphs/cs2_inferno_lowlatency-boost_160fps.png)
+![160 fps, inferno](graphs/inferno_160fps.png)
+![240 fps, inferno](graphs/inferno_240fps.png)
+![300 fps, inferno](graphs/inferno_300fps.png)
+![unlocked fps, inferno](graphs/inferno_unlocked-fps.png)
 
 ---
 ---
----
 
-![csgo_inferno_240fps](graphs/csgo_inferno_240fps.png)
-![cs2_inferno_lowlatency-disabled_240fps](graphs/cs2_inferno_lowlatency-disabled_240fps.png)
-![cs2_inferno_lowlatency-enabled_240fps](graphs/cs2_inferno_lowlatency-enabled_240fps.png)
-![cs2_inferno_lowlatency-boost_240fps](graphs/cs2_inferno_lowlatency-boost_240fps.png)
-
----
----
----
-
-![csgo_inferno_300fps](graphs/csgo_inferno_300fps.png)
-![cs2_inferno_lowlatency-disabled_300fps](graphs/cs2_inferno_lowlatency-disabled_300fps.png)
-![cs2_inferno_lowlatency-enabled_300fps](graphs/cs2_inferno_lowlatency-enabled_300fps.png)
-![cs2_inferno_lowlatency-boost_300fps](graphs/cs2_inferno_lowlatency-boost_300fps.png)
-
----
----
----
-
-CS:GO unlocked fps was at 550fps.
-
-CS2 unlocked fps was pretty much glued to 400fps.
-
-![csgo_inferno_400fps](graphs/csgo_inferno_400fps.png)
-![csgo_inferno_unlocked-fps](graphs/csgo_inferno_unlocked-fps.png)
-![cs2_inferno_lowlatency-disabled_unlocked-fps](graphs/cs2_inferno_lowlatency-disabled_unlocked-fps.png)
-![cs2_inferno_lowlatency-enabled_unlocked-fps](graphs/cs2_inferno_lowlatency-enabled_unlocked-fps.png)
-![cs2_inferno_lowlatency-boost_unlocked-fps](graphs/cs2_inferno_lowlatency-boost_unlocked-fps.png)
-
----
----
----
----
----
----
-
-![csgo_emptymap_160fps](graphs/csgo_emptymap_160fps.png)
-![cs2_emptymap_lowlatency-disabled_160fps](graphs/cs2_emptymap_lowlatency-disabled_160fps.png)
-![cs2_emptymap_lowlatency-enabled_160fps](graphs/cs2_emptymap_lowlatency-enabled_160fps.png)
-![cs2_emptymap_lowlatency-boost_160fps](graphs/cs2_emptymap_lowlatency-boost_160fps.png)
-
----
----
----
-
-![csgo_emptymap_240fps](graphs/csgo_emptymap_240fps.png)
-![cs2_emptymap_lowlatency-disabled_240fps](graphs/cs2_emptymap_lowlatency-disabled_240fps.png)
-![cs2_emptymap_lowlatency-enabled_240fps](graphs/cs2_emptymap_lowlatency-enabled_240fps.png)
-![cs2_emptymap_lowlatency-boost_240fps](graphs/cs2_emptymap_lowlatency-boost_240fps.png)
-
----
----
----
-
-![csgo_emptymap_300fps](graphs/csgo_emptymap_300fps.png)
-![cs2_emptymap_lowlatency-disabled_300fps](graphs/cs2_emptymap_lowlatency-disabled_300fps.png)
-![cs2_emptymap_lowlatency-enabled_300fps](graphs/cs2_emptymap_lowlatency-enabled_300fps.png)
-![cs2_emptymap_lowlatency-boost_300fps](graphs/cs2_emptymap_lowlatency-boost_300fps.png)
-
----
----
----
-
-![csgo_emptymap_480fps](graphs/csgo_emptymap_480fps.png)
-![cs2_emptymap_lowlatency-disabled_480fps](graphs/cs2_emptymap_lowlatency-disabled_480fps.png)
-![cs2_emptymap_lowlatency-enabled_480fps](graphs/cs2_emptymap_lowlatency-enabled_480fps.png)
-![cs2_emptymap_lowlatency-boost_480fps](graphs/cs2_emptymap_lowlatency-boost_480fps.png)
-
----
----
----
-
-![csgo_emptymap_720fps](graphs/csgo_emptymap_720fps.png)
-![cs2_emptymap_lowlatency-disabled_720fps](graphs/cs2_emptymap_lowlatency-disabled_720fps.png)
-![cs2_emptymap_lowlatency-enabled_720fps](graphs/cs2_emptymap_lowlatency-enabled_720fps.png)
-![cs2_emptymap_lowlatency-boost_720fps](graphs/cs2_emptymap_lowlatency-boost_720fps.png)
+![160 fps, empty map](graphs/emptymap_160fps.png)
+![240 fps, empty map](graphs/emptymap_240fps.png)
+![300 fps, empty map](graphs/emptymap_300fps.png)
+![480 fps, empty map](graphs/emptymap_480fps.png)
+![720 fps, empty map](graphs/emptymap_720fps.png)
 
 ## Tear Free Graphs
 
-### GSYNC
+![GSYNC (236 fps), inferno](graphs/inferno_236fps_gsync.png)
+![236 fps (GSYNC), empty map](graphs/emptymap_236fps_gsync.png)
+![VSYNC, inferno](graphs/inferno_vsync.png)
+![300 fps, inferno, fullscreen windowed](graphs/inferno_fullscreen-windowed.png)
 
-![csgo_emptymap_236fps_gsync](graphs/csgo_emptymap_236fps_gsync.png)
-![cs2_emptymap_lowlatency-disabled_236fps_gsync](graphs/cs2_emptymap_lowlatency-disabled_236fps_gsync.png)
-![cs2_emptymap_lowlatency-enabled_236fps_gsync](graphs/cs2_emptymap_lowlatency-enabled_236fps_gsync.png)
-![cs2_emptymap_lowlatency-boost_236fps_gsync](graphs/cs2_emptymap_lowlatency-boost_236fps_gsync.png)
-
----
----
----
-
-![csgo_inferno_236fps_gsync](graphs/csgo_inferno_236fps_gsync.png)
-![cs2_inferno_lowlatency-enabled_236fps_gsync](graphs/cs2_inferno_lowlatency-enabled_236fps_gsync.png)
-![cs2_inferno_lowlatency-disabled_236fps_gsync](graphs/cs2_inferno_lowlatency-disabled_236fps_gsync.png)
-![cs2_inferno_lowlatency-boost_236fps_gsync](graphs/cs2_inferno_lowlatency-boost_236fps_gsync.png)
-
-### VSYNC
-
-![csgo_inferno_vsync-doublebuffer](graphs/csgo_inferno_vsync-doublebuffer.png)
-![csgo_inferno_vsync-triplebuffer](graphs/csgo_inferno_vsync-triplebuffer.png)
-![cs2_inferno_lowlatency-enabled_vsync](graphs/cs2_inferno_lowlatency-enabled_vsync.png)
-
-### Fullscreen Windowed
-
-![csgo_inferno_300fps_windowed-fullscreen](graphs/csgo_inferno_300fps_windowed-fullscreen.png)
-
-WARNING: CS2 Fullscreen Windowed is not actually tear free!
-![cs2_inferno_lowlatency-enabled_300fps_fullscreen-windowed](graphs/cs2_inferno_lowlatency-enabled_300fps_fullscreen-windowed.png)
-
----
 ---
 ---
 
