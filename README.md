@@ -25,7 +25,7 @@ The photoresistor is enclosed to minimize other lights affecting the measurement
 
 ![circuit](images/circuit.png)
 
-## Logic ([code](missing))
+## Logic ([code](arduino.cpp))
 
 ### Calibrate
 
