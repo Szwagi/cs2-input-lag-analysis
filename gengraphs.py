@@ -17,29 +17,30 @@ def read_data(name):
         return [float(x) for x in split if x]
 
 class DataSource:
-    name: str
+    label: str
     filename: str
-def datasource(name, filename):
+def datasource(label, filename):
     ds = DataSource()
-    ds.name = name
+    ds.label = label
     ds.filename = filename
     return ds
 
-def gen_graph(output, name, datanames):
-    print('![' + name + '](graphs/' + output + '.png)')
+def gen_graph(filename, name, datasources):
+    print('![' + name + '](graphs/' + filename + '.png)')
     xs = numpy.linspace(0, 32, 2000)
     pyplot.figure(figsize = (width, height))
-    for it in datanames:
+    for it in datasources:
         data = read_data(it.filename)
         density = gaussian_kde(data)
         density.covariance_factor = lambda : 0.125
         density._compute_covariance()
-        pyplot.plot(xs, density(xs), label = it.name)
+        pyplot.plot(xs, density(xs), label = it.label)
     pyplot.legend()
     pyplot.title(name)
     pyplot.gca().axes.get_yaxis().set_visible(False)
     pyplot.xticks(numpy.arange(0, 32, 1.0))
-    pyplot.savefig(os.path.join('graphs', output + '.png'), bbox_inches = 'tight', pad_inches = 0.1)
+    pyplot.xlabel('milliseconds')
+    pyplot.savefig(os.path.join('graphs', filename + '.png'), bbox_inches = 'tight', pad_inches = 0.1)
     pyplot.close()
 
 gen_graph('emptymap_160fps', '160 fps, empty map', [
