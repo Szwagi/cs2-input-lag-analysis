@@ -28,6 +28,7 @@ def gen_graph(name):
     pyplot.plot(xs, density(xs))
     pyplot.title(name.replace('_', ' | ') + ' | ' + str(numsamples) + ' samples')
     pyplot.gca().axes.get_yaxis().set_visible(False)
+    pyplot.xticks(numpy.arange(0, max(32, max(data)), 1.0))
     pyplot.savefig(os.path.join('graphs', name + '.png'), bbox_inches = 'tight', pad_inches = 0)
     pyplot.close()
 
