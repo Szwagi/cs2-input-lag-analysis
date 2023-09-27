@@ -1,6 +1,6 @@
 # CS2 Input Lag Analysis
 
-My attempt at comparing CS:GO and CS2 input lag.
+My attempt at comparing CS:GO and CS2 mouse movement input lag.
 
 ## Setup
 
